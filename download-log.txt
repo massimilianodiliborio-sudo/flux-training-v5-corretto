@@ -1,0 +1,81 @@
+🔑 Got authentication token
+
+🔍 Fetching latest deployment...
+✅ Found latest deployment (personal account)
+
+📦 Deployment ID:  dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty
+🌐 Deployment URL: flux-training-v5-9n4yg8ssd-massimiliano-di-liborios-projects.vercel.app
+📁 Project:        flux-training-v5
+
+📋 Fetching file tree from API...
+
+✅ Got file tree (13 top-level entries)
+
+📁 Output directory: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source
+
+🗑️  Clearing previous download...
+
+⬇️  Downloading files...
+   (Use --verbose to see detailed progress)
+
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/components/AthleteView.tsx
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/components/Button.tsx
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/components/CoachDashboard.tsx
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/components/SetupParameters.tsx
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/migrated_prompt_history/prompt_2026-02-16T12:14:22.250Z.json
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/App.tsx
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/README.md
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/index.css
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/index.html
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/index.tsx
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/metadata.json
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/package.json
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/postcss.config.js
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/tailwind.config.js
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/types.ts
+✅ Downloaded: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/source/vite.config.ts
+
+🎉 All files processed successfully!
+
+📊 Running comparison...
+
+📁 Total files: 16
+   ✅ Downloaded: 16
+   ⏭️  Skipped: 0
+   ❌ Failed: 0
+💾 Total size: 2.31 MB
+
+📈 File types breakdown:
+   tsx                6 files
+   json               3 files
+   js                 2 files
+   ts                 2 files
+   md                 1 files
+   css                1 files
+   html               1 files
+
+🌳 File structure tree:
+
+├── 📁 components
+│   ├── 📄 AthleteView.tsx
+│   ├── 📄 Button.tsx
+│   ├── 📄 CoachDashboard.tsx
+│   └── 📄 SetupParameters.tsx
+├── 📁 migrated_prompt_history
+│   └── 📄 prompt_2026-02-16T12:14:22.250Z.json
+├── 📄 App.tsx
+├── 📄 index.css
+├── 📄 index.html
+├── 📄 index.tsx
+├── 📄 metadata.json
+├── 📄 package.json
+├── 📄 postcss.config.js
+├── 📄 README.md
+├── 📄 tailwind.config.js
+├── 📄 types.ts
+└── 📄 vite.config.ts
+
+✨ Download and verification complete!
+📄 Full log saved to: /Users/max/out/dpl_Ct6dxUaPJQcLdtWMLqtgnQkGAAty/download-log.txt
+   (Use --verbose to see file tree and skipped files)
+
