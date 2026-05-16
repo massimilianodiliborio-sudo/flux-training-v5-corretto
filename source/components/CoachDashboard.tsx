@@ -200,6 +200,13 @@ export const CoachDashboard: React.FC<CoachDashboardProps> = ({
     return trendsList;
   }, [chartData, history, currentAreas, viewFilter]);
 
+  // Distinct cyberpunk palette — one color per parameter index, independent of area
+  const PARAM_COLORS = ['#00f5ff', '#bf5af2', '#ffd60a', '#ff375f', '#30d158'];
+  const getParamColor = (idx: number) => PARAM_COLORS[idx % PARAM_COLORS.length];
+  // Dash patterns: solid, dashed, dotted — readable in B&W too
+  const PARAM_DASH = ['0', '6 3', '2 3'];
+  const getParamDash = (idx: number) => PARAM_DASH[idx % PARAM_DASH.length];
+
   const linesToShow = useMemo(() => {
       if (!selectedHistoryArea) {
           return currentAreas.map((area, index) => ({
@@ -211,13 +218,11 @@ export const CoachDashboard: React.FC<CoachDashboardProps> = ({
       } else {
           const area = currentAreas.find(a => a.name === selectedHistoryArea);
           if (!area) return [];
-          const areaIndex = currentAreas.indexOf(area);
-          const baseColor = getAreaColor(areaIndex);
           return area.parameters.map((p, idx) => ({
               key: p.name,
-              color: baseColor, 
+              color: getParamColor(idx),
               strokeWidth: 2,
-              strokeDasharray: idx % 2 === 0 ? "0" : "5 5"
+              strokeDasharray: getParamDash(idx)
           }));
       }
   }, [selectedHistoryArea, currentAreas]);
